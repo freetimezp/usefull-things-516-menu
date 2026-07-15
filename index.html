@@ -4,12 +4,38 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
         <link rel="stylesheet" href="./assets/css/style.css" />
+
         <title>Project</title>
     </head>
 
     <body>
-        start
+        <nav class="menu">
+            <div>
+                <input type="radio" id="menu-1" name="menu" checked />
+                <label for="menu-1">
+                    <ion-icon name="chatbubbles"></ion-icon>
+                    <span>Messages</span>
+                </label>
+
+                <input type="radio" id="menu-2" name="menu" />
+                <label for="menu-2">
+                    <ion-icon name="images"></ion-icon>
+                    <span>Images</span>
+                </label>
+
+                <input type="radio" id="menu-3" name="menu" />
+                <label for="menu-3">
+                    <ion-icon name="settings"></ion-icon>
+                    <span>Settings</span>
+                </label>
+
+                <span></span>
+            </div>
+        </nav>
 
         <script src="./assets/js/main.js"></script>
     </body>
